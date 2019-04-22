@@ -1,9 +1,20 @@
 ---
 ---
 
+$text-color: #eeeeee;
+$anchor-text-color: #cccccc;
+$anchor-hover-color: #999999;
+$highlight-color: #ff9900;
+$disable-color: #666666;
+$container-background-color: #333333;
+$shadow-color: #000000;
+$slide-content-background-color: #000000;
+$blockquote-color: #333333;
+
 body {
     font-family: 'M PLUS 1p', 'Droid Serif';
     font-weight: 400;
+    color: $text-color;
 }
 
 h1, h2, h3 {
@@ -23,7 +34,7 @@ blockquote .content {
     flex-direction: row;
     margin: 0;
     padding: 1em 2em;
-    background-color: #eeeeee;
+    background-color: $blockquote-color;
 }
 
 blockquote:before {
@@ -34,7 +45,7 @@ blockquote:before {
     padding: 0;
     font-family: 'Droid Serif';
     font-size: 3em;
-    background-color: #ffffff;
+    background-color: $slide-content-background-color;
 }
 
 blockquote:after {
@@ -46,11 +57,35 @@ blockquote:after {
     padding: 0;
     font-family: 'Droid Serif';
     font-size: 3em;
-    background-color: #ffffff;
+    background-color: $slide-content-background-color;
 }
 
 img {
     max-width: 100%;
+}
+
+a {
+    color: $anchor-text-color;
+}
+
+a:hover {
+    color: $anchor-hover-color;
+}
+
+small {
+    vertical-align: middle;
+}
+
+.remark-container {
+    background-color: $container-background-color;
+}
+
+.remark-slide-scaler {
+    box-shadow: 0 0 30px $shadow-color;
+}
+
+.remark-slide-content {
+    background-color: $slide-content-background-color;
 }
 
 .remark-slide-content p, .remark-slide-content li {
@@ -65,18 +100,20 @@ img {
 
 .remark-code, .remark-inline-code {
     font-family: 'Ubuntu Mono';
+    background-color: #333333;
+    padding: 10px;
 }
 
 .remark-code {
     font-size: 1.25em;
 }
 
-.gray {
-    color: #999999;
+.disable {
+    color: $disable-color;
 }
 
-.red {
-    color: #ff0000;
+.highlight {
+    color: $highlight-color;
 }
 
 .bold {
