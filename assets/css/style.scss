@@ -1,0 +1,88 @@
+---
+---
+
+body {
+    font-family: 'M PLUS 1p', 'Droid Serif';
+    font-weight: 400;
+}
+
+h1, h2, h3 {
+    font-family: 'M PLUS 1p', 'Yanone Kaffeesatz';
+    font-weight: 900;
+}
+
+blockquote {
+    display: flex !important;
+    justify-content: center;
+    margin-inline-start: 20px;
+    margin-inline-end: 20px;
+    margin: 0 -3em;
+}
+
+blockquote .content {
+    flex-direction: row;
+    margin: 0;
+    padding: 1em 2em;
+    background-color: #eeeeee;
+}
+
+blockquote:before {
+    content: "“";
+    flex-direction: row;
+    width: 1em;
+    margin: 0;
+    padding: 0;
+    font-family: 'Droid Serif';
+    font-size: 3em;
+    background-color: #ffffff;
+}
+
+blockquote:after {
+    content: "”";
+    flex-direction: row;
+    align-self: flex-end;
+    width: 1em;
+    margin: 0;
+    padding: 0;
+    font-family: 'Droid Serif';
+    font-size: 3em;
+    background-color: #ffffff;
+}
+
+img {
+    max-width: 100%;
+}
+
+.remark-slide-content p, .remark-slide-content li {
+    font-size: 42px;
+}
+
+.remark-slide-content h1 {
+    font-size: 72px;
+    margin-block-start: 0.33em;
+    margin-block-end: 0.33em;
+}
+
+.remark-code, .remark-inline-code {
+    font-family: 'Ubuntu Mono';
+}
+
+.remark-code {
+    font-size: 1.25em;
+}
+
+.gray {
+    color: #999999;
+}
+
+.red {
+    color: #ff0000;
+}
+
+.bold {
+    font-weight: 900;
+}
+
+.small {
+    font-size: 0.5em;
+}
