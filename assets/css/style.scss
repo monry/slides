@@ -1,0 +1,125 @@
+---
+---
+
+$text-color: #eeeeee;
+$anchor-text-color: #cccccc;
+$anchor-hover-color: #999999;
+$highlight-color: #ff9900;
+$disable-color: #666666;
+$container-background-color: #333333;
+$shadow-color: #000000;
+$slide-content-background-color: #000000;
+$blockquote-color: #333333;
+
+body {
+    font-family: 'M PLUS 1p', 'Droid Serif';
+    font-weight: 400;
+    color: $text-color;
+}
+
+h1, h2, h3 {
+    font-family: 'M PLUS 1p', 'Yanone Kaffeesatz';
+    font-weight: 900;
+}
+
+blockquote {
+    display: flex !important;
+    justify-content: center;
+    margin-inline-start: 20px;
+    margin-inline-end: 20px;
+    margin: 0 -3em;
+}
+
+blockquote .content {
+    flex-direction: row;
+    margin: 0;
+    padding: 1em 2em;
+    background-color: $blockquote-color;
+}
+
+blockquote:before {
+    content: "“";
+    flex-direction: row;
+    width: 1em;
+    margin: 0;
+    padding: 0;
+    font-family: 'Droid Serif';
+    font-size: 3em;
+    background-color: $slide-content-background-color;
+}
+
+blockquote:after {
+    content: "”";
+    flex-direction: row;
+    align-self: flex-end;
+    width: 1em;
+    margin: 0;
+    padding: 0;
+    font-family: 'Droid Serif';
+    font-size: 3em;
+    background-color: $slide-content-background-color;
+}
+
+img {
+    max-width: 100%;
+}
+
+a {
+    color: $anchor-text-color;
+}
+
+a:hover {
+    color: $anchor-hover-color;
+}
+
+small {
+    vertical-align: middle;
+}
+
+.remark-container {
+    background-color: $container-background-color;
+}
+
+.remark-slide-scaler {
+    box-shadow: 0 0 30px $shadow-color;
+}
+
+.remark-slide-content {
+    background-color: $slide-content-background-color;
+}
+
+.remark-slide-content p, .remark-slide-content li {
+    font-size: 42px;
+}
+
+.remark-slide-content h1 {
+    font-size: 72px;
+    margin-block-start: 0.33em;
+    margin-block-end: 0.33em;
+}
+
+.remark-code, .remark-inline-code {
+    font-family: 'Ubuntu Mono';
+    background-color: #333333;
+    padding: 10px;
+}
+
+.remark-code {
+    font-size: 1.25em;
+}
+
+.disable {
+    color: $disable-color;
+}
+
+.highlight {
+    color: $highlight-color;
+}
+
+.bold {
+    font-weight: 900;
+}
+
+.small {
+    font-size: 0.5em;
+}
