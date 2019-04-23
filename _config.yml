@@ -1,0 +1,12 @@
+plugins:
+  - jekyll-seo-tag
+social:
+  name: monry
+  links:
+    - https://twitter.com/monry
+    - https://www.facebook.com/monry84
+    - https://github.com/monry
+twitter:
+  username: monry
+  card: summary
+lang: ja_JP
