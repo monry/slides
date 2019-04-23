@@ -2,7 +2,7 @@ class: center, middle
 
 # キッズスター学習帳を<br />支えた技術
 
-## 2019/04/23 KidsStar LT 大会
+## <small>2019/04/23 KidsStar 春の LT 大会</small>
 
 ### 森　哲哉
 
@@ -43,7 +43,7 @@ class: center, middle
 
 # .center[技術書典について]
 
-![技術書典6](assets/image/2019-04-23-00-36-03.png)
+![技術書典6](assets/image/2019-04-23_Technology_that_supports_the_KidsStar_TechNote/techbookfest6.png)
 
 ---
 
@@ -74,7 +74,7 @@ class: center, middle
 
 # .center[<span style="margin: 0 -2em; letter-spacing: -0.05em;">キッズスター学習帳について</span>]
 
-<span class="center" style="margin-top: -0.5em;"><img src="assets/image/2019-04-23-01-29-19.png" alt="キッズスター学習帳" width="45%" /></span>
+<span class="center" style="margin-top: -0.5em;"><img src="assets/image/2019-04-23_Technology_that_supports_the_KidsStar_TechNote/kidsstar_techbook.png" alt="キッズスター学習帳" width="45%" /></span>
 
 ---
 
@@ -137,7 +137,7 @@ class: middle, center
 
 # .center[Re:VIEW について]
 
-![Re:VIEW](assets/image/2019-04-23-00-16-06.png)
+![Re:VIEW](assets/image/2019-04-23_Technology_that_supports_the_KidsStar_TechNote/review.png)
 
 ---
 
@@ -198,7 +198,7 @@ count: false
 
 ## 使い方（KidsStar の場合）
 
-1. 原稿を書く<small> (拡張子: `.re`)</small>
+1. 原稿を書く <small>(拡張子: `.re`)</small>
 --
 count: false
 1. 設定ファイル <small>`config.yml`</small> を用意
@@ -278,7 +278,7 @@ class: middle, center
 # One more thing...
 
 このスライドは [**GitHub Pages**](https://pages.github.com/) 上で<br />[**Jekyll**](https://jekyllrb.com/) を用いて Markdown より<br />生成されており、スライドとしての<br />機能は [**Remark.js**](https://github.com/gnab/remark) を用いて<br />実現しています。<br />
-<small class="disable"><small>環境作るのが楽しくてスライドそのものの<br />進捗がヤバかったのは内緒です。</small></small>
+GitHub に Markdown を push する<br />だけで、生成されるので便利です。
 
 ---
 
