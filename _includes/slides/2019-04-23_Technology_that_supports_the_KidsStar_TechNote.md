@@ -2,7 +2,7 @@ class: center, middle
 
 # キッズスター学習帳を<br />支えた技術
 
-## 2019/04/23 KidsStar LT 大会
+## <small>2019/04/23 KidsStar 春の LT 大会</small>
 
 ### 森　哲哉
 
@@ -198,7 +198,7 @@ count: false
 
 ## 使い方（KidsStar の場合）
 
-1. 原稿を書く<small> (拡張子: `.re`)</small>
+1. 原稿を書く <small>(拡張子: `.re`)</small>
 --
 count: false
 1. 設定ファイル <small>`config.yml`</small> を用意
@@ -278,7 +278,7 @@ class: middle, center
 # One more thing...
 
 このスライドは [**GitHub Pages**](https://pages.github.com/) 上で<br />[**Jekyll**](https://jekyllrb.com/) を用いて Markdown より<br />生成されており、スライドとしての<br />機能は [**Remark.js**](https://github.com/gnab/remark) を用いて<br />実現しています。<br />
-<small class="disable"><small>環境作るのが楽しくてスライドそのものの<br />進捗がヤバかったのは内緒です。</small></small>
+GitHub に Markdown を push する<br />だけで、生成されるので便利です。
 
 ---
 
