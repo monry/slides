@@ -43,7 +43,7 @@ class: center, middle
 
 # .center[技術書典について]
 
-![技術書典6](assets/image/2019-04-23-00-36-03.png)
+![技術書典6](assets/image/2019-04-23_Technology_that_supports_the_KidsStar_TechNote/techbookfest6.png)
 
 ---
 
@@ -74,7 +74,7 @@ class: center, middle
 
 # .center[<span style="margin: 0 -2em; letter-spacing: -0.05em;">キッズスター学習帳について</span>]
 
-<span class="center" style="margin-top: -0.5em;"><img src="assets/image/2019-04-23-01-29-19.png" alt="キッズスター学習帳" width="45%" /></span>
+<span class="center" style="margin-top: -0.5em;"><img src="assets/image/2019-04-23_Technology_that_supports_the_KidsStar_TechNote/kidsstar_techbook.png" alt="キッズスター学習帳" width="45%" /></span>
 
 ---
 
@@ -137,7 +137,7 @@ class: middle, center
 
 # .center[Re:VIEW について]
 
-![Re:VIEW](assets/image/2019-04-23-00-16-06.png)
+![Re:VIEW](assets/image/2019-04-23_Technology_that_supports_the_KidsStar_TechNote/review.png)
 
 ---
 
